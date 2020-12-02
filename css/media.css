@@ -1,0 +1,42 @@
+@media (max-width: 1024px) {
+    .port_bot {
+        justify-content: space-around;
+   }
+   .header_bot h2 {
+    font-size: 60px;
+   }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .header_bot h2 {
+        font-size: 55px;
+       }
+}
+
+@media print {
+    header,
+    footer,
+    section.contacts {
+        display: none;
+    }
+    .container {
+        width: 90%;
+    }
+    .port_top h3 {
+        padding-top: 20px;
+    }
+    .port_top p {
+        padding-bottom: 50px;
+    }
+    .port_bot {
+        padding-bottom: 0;
+    }
+    section.sponsors .container {
+        width: 100%;
+    }
+}
+
